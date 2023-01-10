@@ -1,4 +1,4 @@
-# Visualizing a Decision tree
+# Visualising a Decision tree
 
 # we will export our model in a visual format to see how the model makes predictions 
 
@@ -26,3 +26,4 @@ tree.export_graphviz(model, out_file = 'sports_predictor.dot',
                      rounded=True, 
                      filled=True)
                      
+# We then copy the sports_predictor.dot file into Visual Studio to see the decision tree diagram. 
