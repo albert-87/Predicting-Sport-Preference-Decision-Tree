@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[39]:
-
-
 # ML Model - this is code for creation of the model. 
 
 import pandas as pd 
