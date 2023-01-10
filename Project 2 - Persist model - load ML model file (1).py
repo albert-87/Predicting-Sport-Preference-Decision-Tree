@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # LOAD ML MODEL FILE
 
 # ML model - Persisting (re-using) Models 
