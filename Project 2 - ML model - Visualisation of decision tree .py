@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
-
-
 # Visualizing a Decision tree
 
 # we will export our model in a visual format to see how the model makes predictions 
@@ -32,4 +26,3 @@ tree.export_graphviz(model, out_file = 'sports_predictor.dot',
                      rounded=True, 
                      filled=True)
                      
-
