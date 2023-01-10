@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[63]:
-
-
 # ML measure accuracy of model - 30% data for testing model 70% for training 
 
 import pandas as pd 
@@ -27,10 +21,3 @@ predictions = model.predict(X_test.values)
 
 score = accuracy_score(y_test, predictions)
 score
-
-
-# In[ ]:
-
-
-
-
