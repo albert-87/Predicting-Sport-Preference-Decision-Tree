@@ -1,17 +1,15 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[68]:
-
-
-# ML model - Persisting Models 
+# ML model - to make prediction on what type of sport someone will like based on input parameters. 
 
 import pandas as pd 
 from sklearn.tree import DecisionTreeClassifier
 
 # import data set
 sports_data = pd.read_csv('sportsdata.csv')
+
+# input parameters
 X = sports_data.drop(columns = 'sport')
+
+# output parameter
 y = sports_data['sport']
 
 # create model 
@@ -25,7 +23,6 @@ predictions = model.predict([[21,1]])
 predictions
 
 
-# In[ ]:
 
 
 
