@@ -15,10 +15,10 @@ y = sports_data['sport']
 # create model 
 model = DecisionTreeClassifier()
 
-# train it
+# train model
 model.fit(X.values, y.values) 
 
-# ask it to make predictions 
+# ask model to make predictions 
 predictions = model.predict([[21,1]])
 predictions
 
